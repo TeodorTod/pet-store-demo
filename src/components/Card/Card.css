@@ -1,0 +1,84 @@
+.mainSection {
+    display: flex;
+    margin: 50px 250px;
+    border: solid;
+}
+
+.coverImg {
+    width: 80%;
+}
+
+.mainImg {
+    width: 90%;
+    padding: 70px 0;
+    background-image: url("https://gfp-2a3tnpzj.stackpathdns.com/wp-content/uploads/2018/06/dog-breeds-of-famous-dogs-1600x1065.jpg");
+    background: rgba(240, 227, 227, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.user {
+    display: flex;
+    justify-content: right;
+}
+
+.user img {
+    width: 30%;
+    height: 8%;
+    padding: 8px 12px;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username h4 {
+    display: block;
+}
+
+.email {
+    align-self: flex-end;
+    justify-content:flex-start;
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+/* @media (min-width: 481px) and (max-width: 767px) {
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+}
+   */
+/* Media Query for Tablets Ipads portrait mode */
+/* @media (min-width: 768px) and (max-width: 1024px){
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+} */
+
+/* Media Query for Laptops and Desktops */
+/* @media (min-width: 1025px) and (max-width: 1280px){
+        h3 {
+            font-size: 16px;
+        }
+        h4 {
+            font-size: 12px;
+        }
+    
+}
+   */
+/* Media Query for Large screens */
+/* @media (min-width: 1281px) {
+    h3 {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 8px;
+    }
+} */
