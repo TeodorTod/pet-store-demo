@@ -42,7 +42,7 @@ function Card() {
     return (
         <>
             {pets !== undefined &&
-                <div className='mainSection'>
+                <section className='mainSection'>
                     <div className='pet'>
                         <img className='mainImg' src={pets.photoUrls[0]} alt={pets.name} />
                     </div>
@@ -60,7 +60,7 @@ function Card() {
                         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCbjdEAA_iKW6KLEBOB_01XOdQjvnBqdUslNPycIanwQqvji_15mW5kfPQsziLLhdGwvA&usqp=CAU' alt={user.firstName} />
                     </div>
 
-                </div>}
+                </section>}
         </>
     )
 }
