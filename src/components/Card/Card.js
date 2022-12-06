@@ -38,10 +38,9 @@ function Card() {
         userHandler();
     }, []);
 
-    console.log(user);
     return (
         <>
-            {pets !== undefined &&
+            {pets !== undefined && user !== undefined &&
                 <section className='mainSection'>
                     <div className='pet'>
                         <img className='mainImg' src={pets.photoUrls[0]} alt={pets.name} />

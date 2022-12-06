@@ -1,10 +1,14 @@
 import Card from "./components/Card/Card";
+import DataInsertion from "./components/DataInsertion/DataInsertion";
 
 
 function App() {
 
   return (
-    <Card />
+    <>
+      <DataInsertion />
+      <Card />
+    </>
   );
 }
 
